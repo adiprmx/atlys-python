@@ -16,7 +16,7 @@ class Atlys:
     """Client for https://api.atlys.my.id.
 
     Args:
-        api_key: your API key (``aclys_...``). Optional — without a key
+        api_key: your API key (``atlys_...``). Optional — without a key
             only demo endpoints work.
         base_url: override the API base URL (default:
             ``https://api.atlys.my.id``).
@@ -27,7 +27,7 @@ class Atlys:
 
     Example:
         >>> from atlys import Atlys
-        >>> c = Atlys("aclys_...")
+        >>> c = Atlys("atlys_...")
         >>> resp = c.info.gempa()
         >>> print(resp["result"])
     """
